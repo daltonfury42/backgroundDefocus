@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name": "backgroundDefocus",
+	"version": "0.1",
+	"content_scripts": [
+		{
+			"matches": [ "https://www.youtube.com/watch?v=*" ],
+		    	"js": ["youtube.js"],
+			"run_at": "document_start"
+	      	}
+	]
+}
